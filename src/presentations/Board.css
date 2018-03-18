@@ -1,0 +1,21 @@
+form {
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-gap: 0.1rem;
+  grid-template-columns: repeat(9, 50px);
+  grid-template-rows: repeat(9, 50px);
+}
+
+input {
+  padding: 0.5rem;
+  margin: 0;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+
+input[type="number"]:disabled {
+  background-color: #F6F8F9;
+  color: #ffa2a2;
+  font-weight: bold;
+}
